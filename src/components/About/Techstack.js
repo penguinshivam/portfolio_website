@@ -8,10 +8,11 @@ import {
     DiGit,
     DiJava,
     DiAngularSimple,
+    DiMysql,
+    DiGithub,
 } from "react-icons/di";
 import {
     SiRedis,
-    SiFirebase,
 } from "react-icons/si";
 
 function Techstack() {
@@ -39,10 +40,13 @@ function Techstack() {
                 <DiGit/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiFirebase/>
+                <DiGithub/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiRedis/>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiMysql/>
             </Col>
         </Row>
     );
