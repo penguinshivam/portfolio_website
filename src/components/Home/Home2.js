@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/pp.png";
 import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
@@ -19,31 +19,25 @@ function Home2() {
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
-                            I'm a dedicated <b className="purple">Java Developer</b> with a strong focus on both backend
+                            I'm a <b className="purple">Java Developer</b> with a strong focus on both backend
                             and frontend technologies. My expertise lies in building robust applications using Java and
                             Spring Boot, complemented by my skills in frontend development.<br/><br/>🚀
                             Achievements:<br/><br/>🥈 <b className="purple">2nd Runner-up:</b> Hackaccino
-                            2024 {"(24-Hour Hackathon)"} - Bennett University<br/>🥇 1st Place Idea Presentation:
-                            National Conference on Responsible Management Education 2024<br/>🎯 Shortlisted Round 4: DPBH
-                            2023 24-Hour Hackathon - IIT BHU<br/>🎖️ Consolation Prizes: IILM Hackathon 2k22 & IILM Hack
-                            Utsav 2023 24-Hour Events<br/>I'm passionate about continuously expanding my knowledge,
+                            2024 {"(24-Hour Hackathon)"} - Bennett University<br/>🥇 <b className="purple">1st Place
+                            (Idea
+                            Presentation):</b>
+                            National Conference on Responsible Management Education 2024<br/>🎯 <b
+                            className="purple">Shortlisted (Round 4):</b> DPBH
+                            2023 (24-Hour Hackathon) - IIT BHU<br/>🎖️ <b className="purple">Consolation Prizes:</b> IILM
+                            Hackathon 2k22 &
+                            IILM Hack
+                            Utsav 2023 (24-Hour Events)<br/><br/>I'm passionate about continuously expanding my knowledge,
                             especially in emerging technologies. When I'm not coding, you can find me 🌍 traveling or 🎵
                             producing music.<br/><br/>Feel free to explore my projects and connect with me. Let's build
                             something impactful together!<br/>
-                            <br/>
                             <br/>I am fluent in classics like
                             <i>
                                 <b className="purple"> Java, Javascript and C. </b>
-                            </i>
-                            <br/>
-                            <br/>
-                            My field of Interest's are building new &nbsp;
-                            <i>
-                                <b className="purple">Web Technologies and Products </b> and
-                                also in areas related to{" "}
-                                <b className="purple">
-                                    Blockchain.
-                                </b>
                             </i>
                             <br/>
                             <br/>
