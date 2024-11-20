@@ -742,7 +742,7 @@ button:focus {
   display: none !important;
 }
 
-.img-fluid{
+.avatar{
   width:200px;
   height:200px;
 }
