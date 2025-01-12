@@ -62,7 +62,7 @@ function Projects() {
               title="Personal Portfolio Website(MyPortfolio)"
               description="MyPortfolio is a personal portfolio website built with React to showcase my skills, projects, and achievements. It features a modern, responsive design with smooth navigation and dynamic components for an engaging user experience."
               ghLink="https://github.com/penguinshivam/portfolio_website"
-              demoLink="https://www.google.com/"
+              demoLink="https://shivam-agarwal.vercel.app/"
             />
           </Col>
 

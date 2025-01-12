@@ -4,6 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import GradientText from './GradientText';
+import { SplitText } from "./SplitText";
 
 function Home() {
   return (
@@ -14,15 +16,25 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                <SplitText text="Hi There!" className="custom-class" delay={100} />
+                {" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
+
+
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Shivam Agarwal</strong>
+
+                  <GradientText
+                      colors={["#FF6692", "#A86BB9", "#FF6692", "#A86BB9", "#FF6692"]} // Custom gradient colors
+                      animationSpeed={6} // Custom animation speed in seconds
+                      showBorder={false} // Show or hide border
+                      className="custom-class" // Add one or more custom classes
+                  >
+                    <text style={{color: "white",fontWeight:"lighter"}}>I'M </text>Shivam Agarwal
+                  </GradientText>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
